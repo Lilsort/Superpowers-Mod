@@ -1,0 +1,26 @@
+{
+    "required": true,
+    "package": "com.lilsort.superpowers.client.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [
+        "EyePositionTrackerMixin",
+        "FlightClientPlayerMixin",
+        "LocalPlayerMixin",
+        "MinecraftMixin",
+        "PlayerModelMixin",
+        "grab.GrabModelMixin",
+        "grab.FirstPersonGrabMixin",
+        "grab.AlwaysVisibleOffhandMixin",
+        "grab.HandPositionTrackerMixin",
+        "grab.GrabbedEntityRendererMixin",
+        "grab.EntityCullingMixin",
+        "PlayerRendererMixin",
+        "GameRendererMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    },
+    "overwrites": {
+        "requireAnnotations": true
+    }
+}

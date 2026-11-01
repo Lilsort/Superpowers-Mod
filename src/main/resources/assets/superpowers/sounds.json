@@ -1,0 +1,65 @@
+{
+  "laser_entry": {
+    "sounds": [
+      {
+        "name": "superpowers:laser_entry",
+        "attenuation_distance": 64
+      }
+    ]
+  },
+  "laser_loop": {
+    "sounds": [
+      {
+        "name": "superpowers:laser_loop",
+        "attenuation_distance": 64
+      }
+    ]
+  },
+  "laser_quit": {
+    "sounds": [
+      {
+        "name": "superpowers:laser_quit",
+        "attenuation_distance": 64
+      }
+    ]
+  },
+  "flight_loop": {
+    "sounds": [
+      {
+        "name": "superpowers:flight/flight_loop",
+        "attenuation_distance": 16
+      }
+    ]
+  },
+  "cape_loop": {
+    "sounds": ["superpowers:flight/cape_loop"]
+  },
+  "flight_boost": {
+    "sounds": [
+      {
+        "name": "superpowers:flight/boost1",
+        "attenuation_distance": 16
+      },
+      {
+        "name": "superpowers:flight/boost2",
+        "attenuation_distance": 16
+      },
+      {
+        "name": "superpowers:flight/boost3",
+        "attenuation_distance": 16
+      },
+      {
+        "name": "superpowers:flight/boost4",
+        "attenuation_distance": 16
+      }
+    ]
+  },
+  "flight_boost_super": {
+    "sounds": [
+      {
+        "name": "superpowers:flight/boost_super",
+        "attenuation_distance": 16
+      }
+    ]
+  }
+}
